@@ -9,11 +9,11 @@
 @Important
 Scenario Outline: Search For Customer
 	Given I have entered <Sydipel>
-	When I press 'Next'
-	Then a customer with <Sydipel>, <Eponymia> and <Afm> should be returned
+	When I press Next
+	Then a customer with <Afm> should be returned
 
 	Examples: 
 		| Sydipel  | Eponymia  | Afm        |
-		| 52035235 | Marvel    | 23424515   |
-		| 141414   | Microsoft | 13145252   |
+		| 123145   | Marvel    | 23424515   |
 		| 52035235 | Apple     | 2142143214 |
+		| 141414   | Microsoft | 13145252   |

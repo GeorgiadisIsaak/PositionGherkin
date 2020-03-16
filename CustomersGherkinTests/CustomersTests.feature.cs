@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace DummyGherkinTests
+namespace CustomersGherkinTests
 {
     using TechTalk.SpecFlow;
     using System;
@@ -19,7 +19,7 @@ namespace DummyGherkinTests
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.1.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [TechTalk.SpecRun.FeatureAttribute("Customers Search", SourceFile="CustomersSearchTests.feature", SourceLine=0)]
+    [TechTalk.SpecRun.FeatureAttribute("Customers Search", SourceFile="CustomersTests.feature", SourceLine=0)]
     public partial class CustomersSearchFeature
     {
         
@@ -27,7 +27,7 @@ namespace DummyGherkinTests
         
         private string[] _featureTags = ((string[])(null));
         
-#line 1 "CustomersSearchTests.feature"
+#line 1 "CustomersTests.feature"
 #line hidden
         
         [TechTalk.SpecRun.FeatureInitialize()]
@@ -104,39 +104,39 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given(string.Format("I have entered {0}", sydipel), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 12
- testRunner.When("I press \'Next\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("I press Next", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 13
- testRunner.Then(string.Format("a customer with {0}, {1} and {2} should be returned", sydipel, eponymia, afm), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then(string.Format("a customer with {0} should be returned", afm), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Search For Customer, Variant 0", new string[] {
+        [TechTalk.SpecRun.ScenarioAttribute("Search For Customer, 123145", new string[] {
                 "Important"}, SourceLine=16)]
-        public virtual void SearchForCustomer_Variant0()
+        public virtual void SearchForCustomer_123145()
         {
 #line 10
-this.SearchForCustomer("52035235", "Marvel", "23424515", ((string[])(null)));
+this.SearchForCustomer("123145", "Marvel", "23424515", ((string[])(null)));
 #line hidden
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Search For Customer, Variant 1", new string[] {
+        [TechTalk.SpecRun.ScenarioAttribute("Search For Customer, 52035233", new string[] {
                 "Important"}, SourceLine=16)]
-        public virtual void SearchForCustomer_Variant1()
+        public virtual void SearchForCustomer_52035233()
+        {
+#line 10
+this.SearchForCustomer("52035233", "Apple", "2142143214", ((string[])(null)));
+#line hidden
+        }
+        
+        [TechTalk.SpecRun.ScenarioAttribute("Search For Customer, 141414", new string[] {
+                "Important"}, SourceLine=16)]
+        public virtual void SearchForCustomer_141414()
         {
 #line 10
 this.SearchForCustomer("141414", "Microsoft", "13145252", ((string[])(null)));
-#line hidden
-        }
-        
-        [TechTalk.SpecRun.ScenarioAttribute("Search For Customer, Variant 2", new string[] {
-                "Important"}, SourceLine=16)]
-        public virtual void SearchForCustomer_Variant2()
-        {
-#line 10
-this.SearchForCustomer("52035235", "Apple", "2142143214", ((string[])(null)));
 #line hidden
         }
         
