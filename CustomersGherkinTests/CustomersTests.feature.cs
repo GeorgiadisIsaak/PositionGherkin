@@ -122,12 +122,12 @@ this.SearchForCustomer("123145", "Marvel", "23424515", ((string[])(null)));
 #line hidden
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Search For Customer, 52035233", new string[] {
+        [TechTalk.SpecRun.ScenarioAttribute("Search For Customer, 52035235", new string[] {
                 "Important"}, SourceLine=16)]
-        public virtual void SearchForCustomer_52035233()
+        public virtual void SearchForCustomer_52035235()
         {
 #line 10
-this.SearchForCustomer("52035233", "Apple", "2142143214", ((string[])(null)));
+this.SearchForCustomer("52035235", "Apple", "2142143214", ((string[])(null)));
 #line hidden
         }
         
