@@ -25,12 +25,13 @@ namespace CustomersGherkinTests
         {
             //ScenarioContext.Current.Pending();
         }
-        
-        [Then(@"a customer with (.*) should be returned")]
-        public void ThenACustomerWithShouldBeReturned(string p0)
+
+        [Then(@"a customer with '(.*)' and '(.*)' should be returned")]
+        public void ThenACustomerWithAndShouldBeReturned(string eponymia, string afm)
         {
             Assert.IsNotNull(customer);
-            Assert.AreEqual(customer.Afm, p0);
+            Assert.AreEqual(customer.EponumiaPelath, eponymia);
+            Assert.AreEqual(customer.Afm, afm);
         }
     }
 }

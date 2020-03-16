@@ -10,7 +10,7 @@
 Scenario Outline: Search For Customer
 	Given I have entered <Sydipel>
 	When I press Next
-	Then a customer with <Afm> should be returned
+	Then a customer with '<Eponymia>' and '<Afm>' should be returned
 
 	Examples: 
 		| Sydipel  | Eponymia  | Afm        |
